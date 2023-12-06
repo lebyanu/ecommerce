@@ -22,7 +22,7 @@ from ecommerce_project import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('ecommerce_app.urls')),
+    path('shop/', include('ecommerce_app.urls')),
     path('search/', include('search_app.urls')),
     path('cart/', include('cart_app.urls')),
 ]
