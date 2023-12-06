@@ -124,6 +124,19 @@ text-decoration:none;
 text-decoration:none;
 color: #b9946d ;
 }
+
 .my-custom-btn{
 margin-top:5px;
+background-color:  #214075  ;
+
+border-radius: 12px;
+}
+
+
+
+.my-custom-payment-btn{
+margin-top:5px;
+background-color: #edea34 ;
+color:black;
+border-radius: 12px;
 }
